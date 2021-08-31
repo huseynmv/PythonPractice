@@ -11,7 +11,9 @@ for number in nums:
     for digit in str(number):
         value+=int(digit)
     digitSum.append(value)
-index=nums.index(max(nums))
+# print(digitSum)
+index=digitSum.index(max(digitSum))
+# print(index)
 highest=nums[index]
 print(highest)  # highest number for sum of digits
 
