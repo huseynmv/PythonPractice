@@ -11,16 +11,13 @@ for number in nums:
     for digit in str(number):
         value+=int(digit)
     digitSum.append(value)
-# print(digitSum)
 index=digitSum.index(max(digitSum))
-# print(index)
 highest=nums[index]
 print(highest)  # highest number for sum of digits
 
 sqrtNum=[
     number ** 2 for number in nums
 ]
-
 print (sqrtNum) # square root of numbers in array
 
 even=[
